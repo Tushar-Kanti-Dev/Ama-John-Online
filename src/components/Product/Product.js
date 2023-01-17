@@ -1,10 +1,7 @@
 import React from 'react';
-
 import './Product.css'
-// import { faCoffee } from '@fortawesome/free-solid-svg-icons';
-// import { BsCartCheckFill } from "react-icons/fa";
-import { BsCartPlusFill } from "react-icons/bs";
 
+import { BsCartPlusFill } from "react-icons/bs";
 
 const Product = (props) => {
     const {product, handleAddToCart} = props;
